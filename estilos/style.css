@@ -5,15 +5,31 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+html, body{
     height: 100vh;
     width: 100vw;
     background-color: black;
+    background: url('../fundos/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 main{
     position: relative;
     height: 100vh;
-    background-color: green;
+    
 }
 
+#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 627px;
+    width: 311px;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    background: url('../fundos/frame-iphone.png');
+}
+
+#redes-sociais
